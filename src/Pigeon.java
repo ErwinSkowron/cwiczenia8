@@ -38,4 +38,10 @@ public class Pigeon extends Bird{
     {
         return super.toString()+"\nFeather color: " + featherColor;
     }
+
+    @Override
+    public void sleep()
+    {
+
+    }
 }
