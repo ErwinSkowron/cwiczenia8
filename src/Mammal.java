@@ -53,6 +53,10 @@ public class Mammal extends Animal implements AnimalMove, AnimalBehavior{
         return weight;
     }
 
+    @Override
+    public void sleep(){
+    }
+
     public void setWeight(double weight)
     {
         this.weight = weight;

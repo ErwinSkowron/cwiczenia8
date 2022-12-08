@@ -29,4 +29,8 @@ public class Blowfish extends Animal implements AnimalMove, AnimalBehavior {
         System.out.println("Fish is swimming");
     }
 
+    @Override
+    public void sleep()
+    {}
+
 }

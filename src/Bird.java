@@ -37,4 +37,7 @@ public class Bird extends Animal implements AnimalMove{
         return super.toString()+
                 "\nFeather Color: " + featherColor;
     }
+
+    @Override
+    public void sleep(){}
 }
