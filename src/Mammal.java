@@ -1,7 +1,4 @@
 public class Mammal extends Animal implements AnimalMove, AnimalBehavior{
-    String name;
-    int age;
-    double weight;
 
     public Mammal()
     {
@@ -14,7 +11,8 @@ public class Mammal extends Animal implements AnimalMove, AnimalBehavior{
 
     public Mammal(String name, int age)
     {
-        this(name, age, 10.0);
+        this.name=name;
+        this.age=age;
     }
 
     public void eat()

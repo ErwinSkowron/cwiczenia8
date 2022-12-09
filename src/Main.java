@@ -16,13 +16,14 @@ public class Main{
         Animals[5] = new Blowfish("Fish", 1, 1, "Salt Water");
 
 
-        for (int i = 1; i < Animals.length; i++)
+        for (Animal animal: Animals)
         {
-            Animals[i].eat();
-            Animals[i].getVoice();
-            Animals[i].sleep();
-            System.out.println(Animals[i].toString());
-            Animals[i].move();
+            animal.eat();
+            animal.getVoice();
+            animal.sleep();
+            System.out.println(animal);
+            animal.move();
+            AnimalName.name(animal.getName());
         }
 
         AnimalBehavior[] animalBehaviors = new AnimalBehavior[3];
